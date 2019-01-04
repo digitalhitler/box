@@ -1,0 +1,22 @@
+{
+	"name" : "getrix/box",
+	"description" : "Box with the Things of Getrix",
+	"homepage" : "https://github.com/digitalhitler/box",
+	"license" : "MIT",
+	"version" : "1.0.0",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Sergey Petrenko",
+			"email" : "spetrenko@me.com"
+		}
+	],
+	"require" : {
+		"php" : ">=7.1.0",
+		"ext-json": "*"
+	},
+	"autoload" : {
+		"files" : [
+			"src/autoload.php"
+		]
+	}
+}
